@@ -83,7 +83,7 @@ header nav a {
 }
 
 #contact {
-    background-image: linear-gradient(to bottom, #333, #555);
+    background-image: radial-gradient(white, grey);
     background-attachment: fixed;
     height: 100vh;
     display: flex;
@@ -93,12 +93,41 @@ header nav a {
     color: white;
 }
 
-#contact h2 {
-    
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    justify-content: center;
+    background-color: gold;
+    padding: 5%;
+    margin: 10%;
 }
+
+.my-contact {
+    background-color: green;
+    flex-basis: 100%;
+    padding: 10%;
+    margin: 2%;
+    border-radius: 10%;
+}
+.contact-content h2 {
+    background-color: rebeccapurple;
+    font-size: 35px;
+    padding: 5%;
+    border-radius: 10%;
+}
+.contact-content p {
+    font-size: 24px;
+}
+.contact-content a {
+    text-decoration: none;
+    color: white;
+}
+
 #contact ul li {
     list-style: none;
     text-decoration: none;
+    font-size: 24px;
 }
 
 /* About Styles */
