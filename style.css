@@ -61,6 +61,12 @@ header nav a {
     color: white;
     background-color: #38393b;
     text-decoration: none;
+    
+}
+
+
+#home a:hover {
+    transform: scale(1.1);
 }
 
 /* Projects Styles */
@@ -95,6 +101,8 @@ header nav a {
 .project p {
     font-size: 24px;
 }
+
+/* Contact Styles */
 #contact {
     background-image: radial-gradient(black, grey);
     background-attachment: fixed;
